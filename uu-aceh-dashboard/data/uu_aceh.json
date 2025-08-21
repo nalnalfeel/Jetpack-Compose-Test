@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "title": "UU No. 11 Tahun 2006 tentang Pemerintahan Aceh",
+    "law_number": "11/2006",
+    "year": 2006
+  },
+  "ringkasan": "UU 11/2006 mengatur kekhususan Aceh dalam kerangka NKRI sebagai tindak lanjut Nota Kesepahaman Helsinki 2005. Regulasi ini mencakup kewenangan khusus, susunan kelembagaan, pengelolaan keuangan, pembentukan qanun sebagai peraturan daerah, serta pengaturan lain yang menegaskan otonomi khusus Aceh.",
+  "kewenangan_khusus": [
+    "Pelaksanaan syariat Islam bagi pemeluknya sesuai peraturan perundang-undangan",
+    "Kewenangan adat istiadat dan lembaga adat",
+    "Pengelolaan pendidikan, kebudayaan, dan sosial sesuai kekhususan",
+    "Pengelolaan sumber daya alam tertentu sesuai porsi dan mekanisme yang diatur",
+    "Pengaturan simbol daerah dan identitas kultural",
+    "Kewenangan pembentukan Qanun sebagai peraturan daerah Aceh"
+  ],
+  "kelembagaan": [
+    { "nama": "Pemerintah Aceh", "deskripsi": "Gubernur dan perangkatnya menjalankan urusan pemerintahan Aceh sesuai kewenangan khusus dan umum." },
+    { "nama": "DPRA/DPK", "deskripsi": "Dewan Perwakilan Rakyat Aceh dan Dewan Perwakilan Kabupaten/Kota membentuk qanun dan menjalankan fungsi legislasi, anggaran, dan pengawasan." },
+    { "nama": "MPU (Majelis Permusyawaratan Ulama)", "deskripsi": "Memberikan pertimbangan kebijakan terkait syariat Islam dan kehidupan keagamaan." },
+    { "nama": "Mahkamah Syar'iyah", "deskripsi": "Peradilan syariat Islam untuk perkara tertentu bagi pemeluknya sesuai ketentuan peraturan perundang-undangan." },
+    { "nama": "Wali Nanggroe", "deskripsi": "Lembaga adat dan kultural sebagai pemersatu masyarakat Aceh dalam kerangka adat istiadat (kedudukan bersifat kultural)." }
+  ],
+  "keuangan": [
+    { "topik": "Pendapatan Daerah", "uraian": "Sumber pendapatan meliputi pajak daerah, retribusi, bagi hasil, dan sumber sah lainnya sesuai ketentuan." },
+    { "topik": "Dana Transfer", "uraian": "Termasuk Dana Alokasi Umum/Khusus serta skema dukungan fiskal tertentu sesuai kekhususan Aceh (ketentuan rinci mengacu pada peraturan perundang-undangan)." },
+    { "topik": "Bagi Hasil SDA", "uraian": "Pengaturan bagi hasil sumber daya alam mengikuti proporsi yang diatur dalam UU dan peraturan pelaksana." }
+  ],
+  "qanun": [
+    { "judul": "Qanun Syariat Islam (contoh)", "ringkas": "Mengatur pelaksanaan syariat pada ruang lingkup tertentu bagi pemeluknya." },
+    { "judul": "Qanun Adat dan Budaya (contoh)", "ringkas": "Penguatan lembaga adat dan pelestarian nilai budaya Aceh." },
+    { "judul": "Qanun Pengelolaan Keuangan (contoh)", "ringkas": "Tata kelola APBA dan akuntabilitas sesuai praktik baik." }
+  ],
+  "timeline": [
+    { "tahun": "2005", "peristiwa": "Nota Kesepahaman (MoU) Helsinki ditandatangani." },
+    { "tahun": "2006", "peristiwa": "UU 11/2006 tentang Pemerintahan Aceh disahkan." }
+  ],
+  "referensi": [
+    { "label": "Teks UU 11/2006 (BPK)", "url": "https://peraturan.bpk.go.id/Home/Details/40210/uu-no-11-tahun-2006" },
+    { "label": "MoU Helsinki 2005 (Ringkas)", "url": "https://acehprov.go.id" }
+  ]
+}

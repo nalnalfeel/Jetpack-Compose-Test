@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard UU Pemerintahan Aceh</title>
+  <meta name="description" content="Dashboard ringkas mengenai UU No. 11 Tahun 2006 tentang Pemerintahan Aceh">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body class="bg-slate-50 text-slate-900">
+  <div class="min-h-screen flex">
+    <!-- Sidebar -->
+    <aside class="hidden md:flex md:flex-col w-64 bg-slate-900 text-white">
+      <div class="h-16 flex items-center px-4 border-b border-slate-800">
+        <span class="text-lg font-semibold">UU Pemerintahan Aceh</span>
+      </div>
+      <nav class="flex-1 overflow-y-auto py-4">
+        <ul class="space-y-1 px-3">
+          <li><a href="#ringkasan" class="nav-link block px-3 py-2 rounded hover:bg-slate-800">Ringkasan</a></li>
+          <li><a href="#kewenangan" class="nav-link block px-3 py-2 rounded hover:bg-slate-800">Kewenangan Khusus</a></li>
+          <li><a href="#kelembagaan" class="nav-link block px-3 py-2 rounded hover:bg-slate-800">Kelembagaan</a></li>
+          <li><a href="#keuangan" class="nav-link block px-3 py-2 rounded hover:bg-slate-800">Keuangan</a></li>
+          <li><a href="#qanun" class="nav-link block px-3 py-2 rounded hover:bg-slate-800">Qanun</a></li>
+          <li><a href="#timeline" class="nav-link block px-3 py-2 rounded hover:bg-slate-800">Timeline</a></li>
+          <li><a href="#referensi" class="nav-link block px-3 py-2 rounded hover:bg-slate-800">Referensi</a></li>
+        </ul>
+      </nav>
+      <div class="p-4 text-xs text-slate-400 border-t border-slate-800">
+        Built with Tailwind
+      </div>
+    </aside>
+
+    <!-- Main -->
+    <div class="flex-1 flex flex-col min-w-0">
+      <!-- Topbar -->
+      <header class="sticky top-0 z-10 bg-white/80 backdrop-blur border-b border-slate-200">
+        <div class="h-16 flex items-center gap-3 px-4">
+          <button id="mobileNavBtn" class="md:hidden p-2 rounded border border-slate-200 hover:bg-slate-100" aria-label="Menu">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </button>
+          <div class="font-semibold">Dashboard UU Pemerintahan Aceh</div>
+          <div class="flex-1"></div>
+          <div class="relative w-full max-w-md">
+            <input id="searchInput" type="search" placeholder="Cari pasal/topik/kata kunci..." class="w-full rounded-md border border-slate-300 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" />
+          </div>
+        </div>
+      </header>
+
+      <!-- Content -->
+      <main id="content" class="p-4 md:p-6 space-y-6">
+        <!-- Sections will be rendered here by app.js -->
+      </main>
+
+      <footer class="border-t border-slate-200 p-4 text-sm text-slate-500">
+        Data ringkas untuk keperluan presentasi dan edukasi. Periksa naskah resmi untuk rujukan hukum.
+      </footer>
+    </div>
+  </div>
+
+  <script src="/assets/js/app.js"></script>
+</body>
+</html>
